@@ -1,0 +1,28 @@
+[
+  {
+    "id": 799,
+    "name": "aa",
+    "full_name": "Automatische Akteverwerking",
+    "email": "",
+    "avatar_url": "https://git.dev.cloud.kadaster.nl/avatars/4124bc0a9335c27f086f24ba207a4912",
+    "description": "Automatische Akteverwerking",
+    "website": "",
+    "location": "",
+    "visibility": "limited",
+    "repo_admin_change_team_access": false,
+    "username": "aa"
+  },
+  {
+    "id": 119,
+    "name": "akai",
+    "full_name": "AkteAI",
+    "email": "",
+    "avatar_url": "https://git.dev.cloud.kadaster.nl/avatars/ca6372098aa874ba6ab75461c357b11a",
+    "description": "AkteAI",
+    "website": "",
+    "location": "",
+    "visibility": "limited",
+    "repo_admin_change_team_access": false,
+    "username": "akai"
+  }
+]
