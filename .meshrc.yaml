@@ -17,7 +17,7 @@ sources:
             field: Organisations
             path: /orgs
             method: GET
-            responseSample: ./jsons/SiteList.response.json
+            responseSample: ./jsons/orglistsampleresponse.json.json
             responseTypeName: Organisation         
             
     transforms:
