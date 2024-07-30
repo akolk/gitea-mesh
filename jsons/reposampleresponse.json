@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 876,
     "owner": {
       "id": 753,
@@ -86,4 +85,3 @@
     "mirror_updated": "0001-01-01T00:00:00Z",
     "repo_transfer": null
   }
-]
