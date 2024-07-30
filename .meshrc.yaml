@@ -27,7 +27,7 @@ sources:
             responseTypeName: Repo    
           - type: Query
             field: Repo
-            path: /orgs/{args.orgname}/repos/{args.orgname}/{args.reponame}
+            path: /orgs/{args.orgname}/repos/{args.orgname}
             method: GET
             responseSample: ./jsons/reposampleresponse.json
             responseTypeName: Repo  
