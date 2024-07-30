@@ -4,6 +4,9 @@ serve:
   playground: true
   endpoint: /solaredge
   playgroundTitle: Kadaster Gitea Playground
+  
+plugins:
+  - httpDetailsExtensions:
 
 sources:
   - name: GITEA
