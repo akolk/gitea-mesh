@@ -9,7 +9,7 @@ sources:
   - name: GITEA
     handler:
       jsonSchema:
-        endpoint: https://git.dev.cloud.kadaster.nl/api/vi
+        endpoint: https://git.dev.cloud.kadaster.nl/api/v1
         operationHeaders:
           Authorization: 'token {env.GITEA_TOKEN}'
         operations:
