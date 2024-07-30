@@ -1,0 +1,26 @@
+serve:
+  port: 80
+  browser: false
+  playground: true
+  endpoint: /solaredge
+  playgroundTitle: Kadaster Gitea Playground
+
+sources:
+  - name: GITEA
+    handler:
+      jsonSchema:
+        endpoint: https://git.dev.cloud.kadaster.nl/api/vi
+        operationHeaders:
+          Authorization: 'token {env.GITEA_TOKEN}'
+        operations:
+          - type: Query
+            field: Organisations
+            path: /orgs
+            method: GET
+            responseSample: ./jsons/SiteList.response.json
+            responseTypeName: Organisation         
+            
+    transforms:
+      - prefix:
+          value: GITEA
+          includeRootOperations: true
