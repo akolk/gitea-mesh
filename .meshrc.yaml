@@ -17,8 +17,14 @@ sources:
             field: Organisations
             path: /orgs
             method: GET
-            responseSample: ./jsons/orglistsampleresponse.json.json
-            responseTypeName: Organisation         
+            responseSample: ./jsons/orglistsampleresponse.json
+            responseTypeName: Organisation   
+          - type: Query
+            field: repos
+            path: /orgs/{args.orgname}/repos
+            method: GET
+            responseSample: ./jsons/reposampleresponse.json
+            responseTypeName: Repo      
             
     transforms:
       - prefix:
