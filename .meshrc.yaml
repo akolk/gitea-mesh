@@ -20,11 +20,17 @@ sources:
             responseSample: ./jsons/orglistsampleresponse.json
             responseTypeName: Organisation   
           - type: Query
-            field: repos
-            path: /orgs/{args.orgname}/repos
+            field: Repos
+            path: /orgs/{args.orgname}/repos?page={args.page}
+            method: GET
+            responseSample: ./jsons/repolistsampleresponse.json
+            responseTypeName: Repo    
+          - type: Query
+            field: Repo
+            path: /orgs/{args.orgname}/repos/{args.orgname}/{args.reponame}
             method: GET
             responseSample: ./jsons/reposampleresponse.json
-            responseTypeName: Repo      
+            responseTypeName: Repo  
             
     transforms:
       - prefix:
